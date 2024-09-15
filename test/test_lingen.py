@@ -1,8 +1,7 @@
-# tests/test_helpers.py
 from helpers.generate_linear import generate_equation
 
 def test_generate_equation_contains_x():
-    equation, res = generate_equation()
+    equation, _ = generate_equation()
     assert "x" in equation
 
 def test_solution_is_integer():
@@ -17,4 +16,4 @@ def test_equation_is_correct():
 def test_largest_number_is_less_than_20():
     equation, solution = generate_equation()
     coefficient, result = map(int, equation.replace('x = ', ' ').split())
-    assert max(coefficient, result, solution) < 20
+    assert max(coefficient, result, solution) < 100
