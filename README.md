@@ -18,7 +18,7 @@ Issue: the app is **sleeping**.
 
 Solution: angrily refresh the browser many times...
 
-# Technical Documentation for `boot-dsynth-24`
+## Technical Documentation for `boot-dsynth-24`
 
 ## Project Structure
 
